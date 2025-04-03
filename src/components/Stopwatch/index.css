@@ -1,0 +1,52 @@
+/* Write CSS here */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: cover;
+}
+.timerCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonsBar {
+  min-width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 120px;
+  margin: 10px;
+}
